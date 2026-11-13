@@ -1,0 +1,14 @@
+name: AKHIControlPanel
+version: 1.0.0
+main: de.akhi.control.AKHIControlPanel
+api-version: '1.21'
+author: AKHI
+description: Admin-only futuristic in-game control panel
+commands:
+  menu:
+    description: Open the AKHI Control Panel
+    usage: /menu
+permissions:
+  akhicontrol.admin:
+    description: Access the AKHI Control Panel and console
+    default: op
