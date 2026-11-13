@@ -1,0 +1,6 @@
+AKHI CONTROL PANEL - BUILD
+
+Paper plugin: cd plugin && gradle build
+Fabric client mod: cd fabric-mod && gradle build
+
+See README.md for installation and permission instructions.
