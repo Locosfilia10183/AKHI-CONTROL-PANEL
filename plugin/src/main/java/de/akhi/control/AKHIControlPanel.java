@@ -83,7 +83,7 @@ public final class AKHIControlPanel extends JavaPlugin implements Listener {
         inv.setItem(12, item(Material.RED_WOOL, "SICHTWEITE 10", "Alle Welten auf 10 Chunks"));
         inv.setItem(14, item(Material.ENDER_EYE, "SIMULATION 4", "Alle Welten auf 4 Chunks"));
         inv.setItem(15, item(Material.ENDER_PEARL, "SIMULATION 5", "Alle Welten auf 5 Chunks"));
-        inv.setItem(16, item(Material.ENDER_DRAGON_EGG, "SIMULATION 6", "Alle Welten auf 6 Chunks"));
+        inv.setItem(16, item(Material.END_CRYSTAL, "SIMULATION 6", "Alle Welten auf 6 Chunks"));
         inv.setItem(22, item(Material.ARROW, "ZURÜCK", "Hauptmenü"));
         p.openInventory(inv);
     }
