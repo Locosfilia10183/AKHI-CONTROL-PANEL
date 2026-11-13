@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "akhi_control_keybind",
+  "version": "${version}",
+  "name": "AKHI Control Keybind",
+  "description": "Press G to open the AKHI server control menu.",
+  "environment": "client",
+  "entrypoints": { "client": ["de.akhi.control.client.AKHIControlKeybind"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.4",
+    "fabric-api": "*",
+    "java": ">=21"
+  }
+}
